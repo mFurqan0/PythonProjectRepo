@@ -1,20 +1,11 @@
 string = "This is my first python project"
-string.lower()
-print(string.count('t'))
-print(string.count('h'))
-print(string.count('i'))
-print(string.count('s'))
-print(string.count('m'))
-print(string.count('y'))
-print(string.count('f'))
-print(string.count('r'))
-print(string.count('t'))
-print(string.count('p'))
-print(string.count('y'))
-print(string.count('h'))
-print(string.count('o'))
-print(string.count('n'))
-print(string.count('j'))
-print(string.count('e'))
-print(string.count('c'))
+freq = {}
+for char in string:
+    if char in freq:
+        freq[char] +=1
+    else:
+         freq[char] = 1
+print(freq)
+     
+
 
