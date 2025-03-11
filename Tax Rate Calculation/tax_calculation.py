@@ -37,3 +37,4 @@ take_home = salary - tax
 print(f"\nMarginal Tax Rate: {tax_rate}%")
 print(f"Tax Amount: ${tax:.2f}")
 print(f"Take-home Salary: ${take_home:.2f}")
+
